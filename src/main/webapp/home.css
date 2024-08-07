@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.card {
+    background: rgb(255, 128, 128);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.quote-text {
+    font-size: 1.5em;
+    color: rgb(85, 85, 85);
+    margin: 0;
+    text-align: center;
+}
+.quote-author {
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 10px;
+    text-align: center;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form-container form {
+    margin: 0 10px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+}
+.button:hover {
+    background: #0056b3;
+}
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+@media (max-width: 480px) {
+    .quote-text {
+        font-size: 1.2em;
+    }
+
+    .quote-author {
+        font-size: 1em;
+    }
+
+    .button {
+        font-size: 0.8em;
+        padding: 8px 16px;
+    }
+
+    input[type="text"] {
+        width: 95%;
+    }
+}
